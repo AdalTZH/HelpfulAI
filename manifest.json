@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Helpful AI",
+    "description": "To help with understanding of text that you don't understand",
+    "version": "1.0",
+    "permissions": ["activeTab", "scripting","tabs"],
+    "host_permissions": ["<all_urls>"],
+    "action":{
+        "default_popup": "popup/popup.html"
+    },
+    "icons":{
+        "16":"images/HAI.png"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": ["about.html"],
+            "matches": ["<all_urls>"]
+        }
+    ],
+    "background":{
+        "Service_worker": "background.js",
+        "type": "module"
+    }
+    
+}

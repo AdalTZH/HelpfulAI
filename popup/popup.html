@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Helpful AI</title>
+    <link rel="stylesheet" href="popup.css">
+    <img src="../images/HAI.png" alt="HAI" width="80" height="80" class="center">
+</head>
+<body style="width: 250px; border-radius: 200px;">
+
+
+<div id="prompt" class="page active">
+    <h2 style="text-align: center;">Ask HAI</h2>
+    <div class="loader-container">
+        <div class="loader" hidden></div>
+    </div>
+    <div class="responese-container" m-6>
+        <p id="response" style="font-size: 14px;"></p>
+    </div>
+    <div class="input-container" m-6>
+        <input type="text" id="input" class="input" placeholder="Enter your query here">
+    </div>
+    <div class="send-container" m-6>
+        <button id="send" class="button is-primary">Send</button>
+    </div>
+    <a href = "./about.html" style="margin:auto; text-align:center; display:block; font-size: 13px;">About HAI</a>
+</div>
+</body>
+<script type="module" src="popup.js"></script>
+</html>

@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "moduleResolution": "node",
+      "esModuleInterop": true
+      // other options
+    },
+    "include": [
+      "src",
+      "types",
+      "**/*.d.ts"
+    ]
+  }
+  
